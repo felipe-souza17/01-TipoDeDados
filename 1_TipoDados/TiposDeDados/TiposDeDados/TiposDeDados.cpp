@@ -53,6 +53,7 @@ int main()
 	cout << "Entrada de Dados" << endl;
 	cout << "================" << endl;
 	string nome = "";
+	float altura = 0.0F;
 	int idade = 0;
 	int dias = 0;
 	int horas = 0;
@@ -60,6 +61,8 @@ int main()
 
 	cout << "Digite seu nome: ";
 	cin >> nome;
+	cout << "Digite sua altura em metros: ";
+	cin >> altura;
 	cout << "Digite sua idade: ";
 	cin >> idade;
 	dias = idade * 365;
@@ -70,8 +73,6 @@ int main()
 	cout << "Sua idade em minutos e: " << minutos << endl;
 
 	cout << "Qualquer tecla para sair...";
-	system("pause"); // somente no Windows
-
 
 }
 
